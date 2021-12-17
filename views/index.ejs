@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>timb.codes</title>
+    <link rel="icon" type="image/x-icon" href="../public/assets/logo1.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -15,28 +16,30 @@
 </head>
 
 <body>
-    <header class="top_header">
-        <div class="main_menu">
-            <div class="get_around">
-                <a href="#" class="nav_item" id="projects">Projects</a>
-                <a href="#" class="nav_item" id="about_me">About Me</a>
-            </div>
-        </div>
-    </header>
     <main class="main_content">
         <div class="first_section">
+            <div class="get_around">
+                <a href="#" class="nav_item" id="about_me">About Me</a>
+                <a href="#" class="nav_item" id="projects">Projects</a>
+                <a href="#" class="nav_item" id="contact">Contact</a>
+            </div>
             <div class="welcome_text">
-                <h1 class="main_text">timb.codes</h1>
-            </div>
-            <div class="learn_more">
-                <p class="learn_text">Learn More</p>
-            </div>
-            <div class="jump_arrow_one">
-                <i class="fas fa-chevron-circle-down"></i>
-            </div>
+                <h1 class="main_text">
+                    {timb.<span class="txt-type" data-wait="5000" data-words='["codes", "designs", "develops", "creates", "consults"]'></span
+            >}
+          </h1>
         </div>
+        <div class="move_along">
+          <div class="learn_more">
+            <p class="learn_text">Learn More</p>
+          </div>
+          <div class="jump_arrow_one">
+            <i class="fas fa-chevron-circle-down"></i>
+          </div>
+        </div>
+      </div>
     </main>
     <footer class="bottom_footer"></footer>
-</body>
-
+    <script src="../public/js/typewriter.js"></script>
+  </body>
 </html>
