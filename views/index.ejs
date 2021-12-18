@@ -17,7 +17,7 @@
 
 <body>
     <main class="main_content">
-        <div class="first_section">
+        <div class="first_section" id="first_section">
             <div class="get_around">
                 <a href="#" class="nav_item" id="about_me">About Me</a>
                 <a href="#" class="nav_item" id="projects">Projects</a>
@@ -31,13 +31,60 @@
         </div>
         <div class="move_along">
           <div class="learn_more">
-            <p class="learn_text">Learn More</p>
+            <a href="#second_section" class="no_style"
+              ><p class="learn_text">Learn More</p></a
+            >
           </div>
           <div class="jump_arrow_one">
-            <i class="fas fa-chevron-circle-down"></i>
+            <a href="#second_section" class="no_style"
+              ><i class="fas fa-chevron-circle-down"></i
+            ></a>
           </div>
         </div>
       </div>
+      <div class="second_section" id="second_section">
+        <div class="up_arrow">
+          <a href="#first_section" class="no_style"
+            ><i class="fas fa-chevron-circle-up"></i
+          ></a>
+        </div>
+        <div class="center_wrapper">
+          <div class="about_welcome">
+            <h2 class="about_intro">About Me</h2>
+          </div>
+          <div class="content_wrapper">
+            <div class="me_img">
+              <img
+                src="../public/assets/me_img3.jpg"
+                alt="Personal Selfie Image"
+                class="about_img"
+              />
+            </div>
+            <div class="about_text">
+              <p class="about_me">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque
+                quod facilis cum repellat eligendi nostrum officiis? Unde
+                similique consequuntur officia aliquid minus doloribus?
+                Doloribus enim ullam corrupti atque aut consectetur. Lorem ipsum
+                dolor sit amet consectetur adipisicing elit. Tempore fuga, neque
+                architecto maiores doloribus dignissimos culpa distinctio eos
+                numquam labore eveniet ullam, ut magnam suscipit libero animi
+                iure ex dolores. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Ut, pariatur? Iure sint praesentium nam illum
+                quaerat suscipit assumenda corrupti. Atque soluta quos
+                perferendis reiciendis in possimus, natus eveniet voluptate
+                reprehenderit?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="two_down_arrow">
+          <a href="#third_section" class="no_style"
+            ><i class="fas fa-chevron-circle-down"></i
+          ></a>
+        </div>
+      </div>
+      <div class="third_section" id="third_section"></div>
     </main>
     <footer class="bottom_footer"></footer>
     <script src="../public/js/typewriter.js"></script>
