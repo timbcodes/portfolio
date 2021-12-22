@@ -21,7 +21,7 @@
             <div class="get_around">
                 <a href="#second_section" class="nav_item" id="about_me">About Me</a>
                 <a href="#third_section" class="nav_item" id="projects">Projects</a>
-                <a href="#" class="nav_item" id="contact">Contact</a>
+                <a href="#bottom" class="nav_item" id="contact">Contact</a>
             </div>
             <div class="welcome_text">
                 <h1 class="main_text">
@@ -218,7 +218,68 @@
         </div>
       </div>
     </main>
-    <footer class="bottom_footer"></footer>
+    <footer class="bottom_footer" id="bottom">
+      <div class="up_arrow">
+        <a href="#first_section" class="no_style"
+          >Home <i class="fas fa-chevron-circle-up"></i
+        ></a>
+      </div>
+      <div class="contact_intro">
+        <h2 class="contact_me">Contact Me</h2>
+      </div>
+      <div class="contact_container">
+        <div class="contact_paragraph">
+          <p class="contact_info">Timothy Bradford</p>
+          <p class="contact_info">114 High Street</p>
+          <p class="contact_info">Fairdale, ND 58229</p>
+          <p class="contact_info">701 415 9250</p>
+          <p class="contact_info">tim@timb.codes</p>
+        </div>
+        <div class="contact_me_inst">
+          <p class="cont_text_fill">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est maxime
+            accusamus, nihil vel perferendis at, totam quam cupiditate natus
+            ducimus velit iusto dolore perspiciatis ipsam! Earum autem commodi
+            asperiores consectetur.
+          </p>
+        </div>
+        <div class="contact_form">
+          <form class="main_form" action="/email" method="POST" id="main_form">
+            <div class="side_by_side">
+              <label for="name">Name: <span class="required">*</span></label>
+                    <input type="text" name="name" id="name" class="form_field" required />
+            </div>
+            <div class="side_by_side">
+                <label for="email">Email: <span class="required">*</span></label>
+                <input type="text" name="email" id="email" class="form_field" required />
+            </div>
+            <div class="side_by_side">
+                <label for="subject">Subject: <span class="required">*</span></label
+              >
+              <input
+                type="text"
+                name="subject"
+                id="subject"
+                class="form_field"
+                required
+              />
+            </div>
+            <label for="message"
+              >Message: <span class="required">*</span></label
+            >
+            <textarea
+              name="message"
+              id="message"
+              cols="40"
+              rows="5"
+              required
+              placeholder="Enter Your Message"
+            ></textarea>
+            <input type="submit" name="submit" id="submit" value="submit" />
+          </form>
+        </div>
+      </div>
+    </footer>
     <script src="../public/js/typewriter.js"></script>
   </body>
 </html>
