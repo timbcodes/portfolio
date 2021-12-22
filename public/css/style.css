@@ -84,7 +84,7 @@ a {
     margin: 5% auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
 }
 
@@ -117,7 +117,7 @@ a {
 
 .content_wrapper {
     max-width: 70%;
-    margin: 6em auto;
+    margin: 4em auto;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -161,6 +161,10 @@ a {
     color: #000 !important;
 }
 
+#bottom_down {
+    margin: -20px 0 0 35px;
+}
+
 .sec_three_about {
     color: #000 !important;
 }
@@ -171,10 +175,10 @@ a {
 
 .project_container {
     max-width: 70%;
-    margin: 5% auto;
+    margin: 3% auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
     color: #000;
     text-align: center;
@@ -186,7 +190,7 @@ a {
 }
 
 .gal_img_item {
-    width: 400px;
+    height: 200px;
     border: 2px solid #0eb566;
     border-radius: 10px;
     cursor: pointer;
@@ -232,7 +236,7 @@ a {
     margin: auto;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -248,7 +252,7 @@ a {
 }
 
 .contact_me_inst {
-    max-width: 300px;
+    max-width: 280px;
     margin-left: 6%;
     text-align: center;
 }
@@ -288,6 +292,10 @@ input {
     margin-bottom: 30px;
     float: right;
     max-width: 100px;
+}
+
+.required {
+    color: red;
 }
 
 input:focus,
