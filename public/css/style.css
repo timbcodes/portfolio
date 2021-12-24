@@ -359,4 +359,134 @@ textarea:active {
     }
 }
 
-@media (max-width: 1020) and (min-width: 768px) {}
+@media (max-width: 1020px) and (min-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .main_text {
+        font-size: 6em;
+    }
+    .icon_cont {
+        max-width: 20%;
+    }
+    .content_wrapper {
+        max-width: 90%;
+    }
+    .project_container {
+        margin-top: 60px;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .gallery_item {
+        max-width: 80%;
+    }
+    .comp_work_logo {
+        display: none;
+    }
+    .up_arrow {
+        display: none;
+    }
+    .down_arrow {
+        display: none;
+    }
+    .sec_three_about {
+        padding-top: 50px;
+    }
+    .bottom {
+        padding-bottom: 50px;
+    }
+    .contact_intro {
+        padding-top: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .comp_work_logo {
+        display: none;
+    }
+    .contact_container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .up_arrow {
+        display: none;
+    }
+    .down_arrow {
+        display: none;
+    }
+    .project_container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .gallery_item {
+        max-width: 95%;
+    }
+    .bottom {
+        padding-bottom: 50px;
+        padding-top: 40px;
+    }
+    .contact_intro {
+        padding-top: 50px;
+    }
+    .sec_three_about {
+        padding-top: 50px;
+    }
+    .contact_paragraph {
+        margin: 0;
+        margin-right: 40px;
+    }
+    .contact_me_inst {
+        margin: 0;
+        max-width: 400px;
+        padding-right: 20px;
+    }
+    .top {
+        padding-top: 50px;
+    }
+    .gal_img_item {
+        height: 120px;
+    }
+    .content_wrapper {
+        flex-direction: column;
+        align-items: center;
+        max-width: 90%;
+        gap: 20px;
+        padding-top: 40px;
+    }
+    .about_text {
+        max-width: 80%;
+    }
+    .icons_container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 80px;
+        justify-content: center;
+        margin: 0;
+        gap: 50px;
+    }
+    .icon_cont {
+        max-width: 80%;
+    }
+    .main_text {
+        font-size: 3em;
+    }
+    .get_around {
+        display: none;
+    }
+    .side_by_side {
+        max-width: 80%;
+    }
+    input {
+        max-width: 200px;
+    }
+    textarea {
+        max-width: 90%;
+    }
+    #submit {
+        margin-right: 30px;
+    }
+}
