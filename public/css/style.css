@@ -399,6 +399,9 @@ textarea:active {
     .contact_intro {
         padding-top: 50px;
     }
+    .move_along {
+        display: none;
+    }
 }
 
 @media (max-width: 768px) {
@@ -406,9 +409,6 @@ textarea:active {
     body {
         overflow-x: hidden;
         padding: env(safe-area-inset);
-    }
-    body {
-        /* position: relative; */
     }
     .move_along {
         display: none;
