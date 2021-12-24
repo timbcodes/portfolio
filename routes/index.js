@@ -8,7 +8,6 @@ router.get("/", (req, res) => {
 });
 
 router.post("/email", (req, res) => {
-    console.log(req.body.name);
     let mailOptions = {
         from: req.body.email,
         to: "tim@timb.codes",
