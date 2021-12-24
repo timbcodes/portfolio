@@ -194,7 +194,6 @@ a {
     height: 200px;
     border: 2px solid #0eb566;
     border-radius: 10px;
-    cursor: pointer;
 }
 
 .comp_work_logo {
@@ -312,6 +311,27 @@ textarea:active {
     color: #fff;
 }
 
+.copyright {
+    color: #fff;
+    margin-left: 1em;
+    margin-bottom: -6.5em;
+}
+
+.social_links {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 3em;
+    padding-bottom: 1em;
+}
+
+.soc_icon {
+    display: inline-block;
+    font-size: 3em;
+}
+
 
 /* Firefox */
 
@@ -401,6 +421,10 @@ textarea:active {
     }
     .move_along {
         display: none;
+    }
+    .message_txt {
+        display: none;
+        padding: 3em;
     }
 }
 
@@ -515,5 +539,12 @@ textarea:active {
     .message_txt {
         display: none;
         padding: 20px;
+    }
+    .copyright {
+        display: none;
+    }
+    .social_links {
+        margin-top: 1em;
+        padding-top: 0;
     }
 }
