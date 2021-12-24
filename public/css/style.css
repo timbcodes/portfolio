@@ -162,7 +162,8 @@ a {
 }
 
 #bottom_down {
-    margin: -20px 0 0 35px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
 }
 
 .sec_three_about {
@@ -401,8 +402,16 @@ textarea:active {
 }
 
 @media (max-width: 768px) {
+    html,
     body {
         overflow-x: hidden;
+        padding: env(safe-area-inset);
+    }
+    body {
+        /* position: relative; */
+    }
+    .move_along {
+        display: none;
     }
     .comp_work_logo {
         display: none;
@@ -437,12 +446,12 @@ textarea:active {
     }
     .contact_paragraph {
         margin: 0;
-        margin-right: 40px;
+        margin-right: 4em;
     }
     .contact_me_inst {
         margin: 0;
         max-width: 400px;
-        padding-right: 20px;
+        padding-right: 3em;
     }
     .top {
         padding-top: 50px;
@@ -457,8 +466,18 @@ textarea:active {
         gap: 20px;
         padding-top: 40px;
     }
+    .breakup {
+        border-top: 2px solid #0eb566;
+        min-width: 100%;
+        margin-top: 40px;
+        background-color: #000;
+        color: #fff;
+        height: 100%;
+        margin-bottom: -65px;
+    }
     .about_text {
         max-width: 80%;
+        padding-bottom: 50px;
     }
     .icons_container {
         flex-direction: column;
@@ -470,6 +489,7 @@ textarea:active {
     }
     .icon_cont {
         max-width: 80%;
+        padding: 30px 0;
     }
     .main_text {
         font-size: 3em;
@@ -478,15 +498,22 @@ textarea:active {
         display: none;
     }
     .side_by_side {
-        max-width: 80%;
+        display: inline-block;
+        text-align: left;
     }
     input {
-        max-width: 200px;
+        max-width: 150px;
+        margin-left: 5px;
     }
     textarea {
-        max-width: 90%;
+        margin-top: 30px;
+        max-width: 70%;
     }
     #submit {
-        margin-right: 30px;
+        margin-right: 12em;
+    }
+    .message_txt {
+        display: none;
+        padding: 20px;
     }
 }
