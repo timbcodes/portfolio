@@ -186,7 +186,7 @@ a {
 }
 
 .gallery_item {
-    max-width: 30%;
+    max-width: 50%;
 }
 
 .gal_img_item {
@@ -211,7 +211,7 @@ a {
 }
 
 .gal_desc_item {
-    max-width: 80%;
+    width: 60%;
     margin: auto;
 }
 
@@ -344,3 +344,19 @@ textarea:active {
     margin-right: 20%;
     padding: 0;
 }
+
+@media (max-width: 1300px) {
+    .comp_work_logo {
+        width: 80%;
+    }
+    .contact_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .gal_desc_item {
+        width: 90%;
+    }
+}
+
+@media (max-width: 1020) and (min-width: 768px) {}
