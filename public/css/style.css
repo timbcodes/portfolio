@@ -334,3 +334,13 @@ textarea:active {
     background-color: #0eb566;
     border-radius: 10px;
 }
+
+.success_msg {
+    display: none;
+    background-color: #000;
+    margin-top: -70px;
+    color: #0eb566;
+    text-align: right;
+    margin-right: 20%;
+    padding: 0;
+}
