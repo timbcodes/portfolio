@@ -196,6 +196,10 @@ a {
     border-radius: 10px;
 }
 
+.end {
+    margin-left: 1em;
+}
+
 .comp_work_logo {
     width: 70%;
     display: inline-block;
@@ -213,6 +217,10 @@ a {
 .gal_desc_item {
     width: 60%;
     margin: auto;
+}
+
+.button_fix {
+    margin-top: -60px;
 }
 
 .comp_text {
@@ -385,6 +393,13 @@ textarea:active {
     }
     .gal_desc_item {
         width: 90%;
+    }
+    .project_container {
+        flex-wrap: wrap;
+    }
+    .comp_work_logo {
+        margin: auto;
+        padding-left: 10%;
     }
 }
 
