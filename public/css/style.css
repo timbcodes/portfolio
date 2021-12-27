@@ -240,6 +240,14 @@ a {
     justify-content: space-between;
 }
 
+.contact_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 58%;
+    padding-right: 3em;
+}
+
 .contact_intro {
     color: #fff;
     text-align: center;
