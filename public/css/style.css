@@ -426,6 +426,35 @@ textarea:active {
         display: none;
         padding: 3em;
     }
+    .bottom {
+        margin-top: 60px;
+    }
+    .contact_container {
+        display: block;
+        margin: auto;
+    }
+    .contact_text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+    .contact_form {
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contact_paragraph {
+        padding: 0;
+        margin: auto;
+    }
+    .contact_me_inst {
+        padding: 0;
+        margin: auto;
+        max-width: 50%;
+    }
 }
 
 @media (max-width: 768px) {
@@ -439,11 +468,6 @@ textarea:active {
     }
     .comp_work_logo {
         display: none;
-    }
-    .contact_container {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
     }
     .up_arrow {
         display: none;
@@ -467,15 +491,6 @@ textarea:active {
     }
     .sec_three_about {
         padding-top: 50px;
-    }
-    .contact_paragraph {
-        margin: 0;
-        margin-right: 4em;
-    }
-    .contact_me_inst {
-        margin: 0;
-        max-width: 400px;
-        padding-right: 3em;
     }
     .top {
         padding-top: 50px;
@@ -546,5 +561,41 @@ textarea:active {
     .social_links {
         margin-top: 1em;
         padding-top: 0;
+    }
+    .contact_container {
+        display: block;
+        margin: auto !important;
+        text-align: center;
+        width: 100%;
+    }
+    .contact_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        text-align: center;
+    }
+    .contact_paragraph {
+        padding: 0;
+        margin: auto;
+    }
+    .contact_me_inst {
+        padding: 0;
+        margin: auto;
+        max-width: 80%;
+        margin-bottom: 30px;
+    }
+    .contact_form {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        margin: auto;
+        padding: 0;
+        width: 80%;
+    }
+    .side_by_side {
+        margin: 0;
+        padding: 0;
     }
 }
