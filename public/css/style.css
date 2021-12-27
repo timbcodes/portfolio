@@ -463,6 +463,9 @@ textarea:active {
         margin: auto;
         max-width: 50%;
     }
+    .end {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 768px) {
@@ -605,5 +608,8 @@ textarea:active {
     .side_by_side {
         margin: 0;
         padding: 0;
+    }
+    .end {
+        margin-top: -50px;
     }
 }
