@@ -382,6 +382,10 @@ textarea:active {
     padding: 0;
 }
 
+.end {
+    margin-left: 1em;
+}
+
 @media (max-width: 1300px) {
     .comp_work_logo {
         width: 80%;
@@ -480,6 +484,7 @@ textarea:active {
     }
     .end {
         margin-top: 0;
+        /* margin-left: 1.5em; */
     }
 }
 
